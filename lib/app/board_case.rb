@@ -10,6 +10,4 @@ class BoardCase
 
   end 
 
-
-
 end 
