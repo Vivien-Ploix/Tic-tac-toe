@@ -2,6 +2,7 @@
 
 
 class Player 
+  attr_accessor :name, :symbol
 
   def initialize (name, symbol)
     @name = name
@@ -13,7 +14,7 @@ class Player
 
     puts "Où voulez-vous jouer?"
     print "> "
-    return play = gets.chomp
+    return gets.chomp
 
   end 
 
